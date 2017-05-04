@@ -71,23 +71,17 @@ Erlang también es popular para los servidores del juego. Millones de usuarios j
 
 Elixir creado por José Valim, comenta: “Me gustó todo lo que vi en Erlang, pero odiaba las cosas que no vi”. Elixir tiene su propio sistema de gestión de paquetes -> hex.pm.
 
-Elixir es un lenguaje que se ejecuta en la máquina virtual de Erlang. Por lo que tiene todas las ventajas, probado en batalla y puede usar las bibliotecas existentes Erlang sin penalización en el rendimiento. Elixir y añade un montón de sutilezas. Uno de ellos es ```pipe operator``.
+Elixir es un lenguaje que se ejecuta en la máquina virtual de Erlang. Por lo que tiene todas las ventajas, probado en batalla y puede usar las bibliotecas existentes Erlang sin penalización en el rendimiento. Elixir y añade un montón de sutilezas. Uno de ellos es 
 
 La diferencia entre Erlang y elixir no es sólo la sintaxis. Sin embargo, la sintaxis es importante, y especialmente para desarrolladores de Ruby la sintaxis Elixir será muy familiar.
 
-
-
 Inmutabilidad y la programación funcional
-
 
 Elixir es un lenguaje funcional con la inmutabilidad. La programación funcional es un paradigma de programación declarativa basado en el uso de funciones matemáticas, en contraste con la programación imperativa, que enfatiza los cambios de estado mediante la mutación de variables. La programación funcional tiene sus raíces en el cálculo lambda, un sistema formal desarrollado en los años 1930 para investigar la definición de función, la aplicación de las funciones y la recursión. Muchos lenguajes de programación funcionales pueden ser vistos como elaboraciones del cálculo lambda.
 
 Me he dado cuenta de lo beneficioso que es. Incluso para la programación de un solo subproceso, mutabilidad trae una incertidumbre acerca de cómo va a ejecutar un programa. Y que no se pierda la mutabilidad en absoluto. La programación funcional y la inmutabilidad ayuda a aclarar las cosas y hace que sea más fácil de razonar sobre el código.
 
-
-
 Concurrencia
-
 
 Otro punto fuerte para Elixir es la simultaneidad. Concurrencia está aquí para quedarse, por varias razones. Para mencionar algunos: La tendencia en hardware es cada vez más núcleos de CPU. Los fabricantes de CPU no van a mejorar el rendimiento de un solo núcleo a la misma velocidad que antes. En su lugar, son la adición de más núcleos. También el mundo es concurrente y no desea que los usuarios finales u otros servicios de software que esperen innecesariamente una respuesta.
 
@@ -101,14 +95,36 @@ Elixir: Phoenix está escrito en Elixir, y nuestro código de la aplicación tam
 
 Erlang: Elixir se compila a código de bytes de Erlang para ejecutar en la máquina virtual de Erlang. Sin Erlang, Elixir tiene ninguna máquina virtual para ejecutar en, por lo que necesitamos para instalar Erlang también.
 
-* Phoenix
+ Phoenix
 
-* Plug, Cowboy, and Ecto
+ Plug, Cowboy, and Ecto
 
-* node.js (>= 5.0.0)
+ node.js (>= 5.0.0)
 
-* PostgreSQL
+ PostgreSQL
 
 Ahora vamos a montar nuestro entorno de desarrollo para poder trabajar con este hermoso framework que mucho promete, lo primero sera instalar elixir:
 
 Para instalar elixir en Mac OS X lo vamos hacer mediante Homebrew
+
+#WebSockets 
+
+es una tecnología avanzada que hace posible abrir una sesión de comunicación interactiva entre el navegador del usuario y un servidor. Con esta  API, puede enviar mensajes a un servidor y  recibir  respuestas controladas por eventos sin tener que consultar al servidor para una respuesta.
+
+Interfaces
+
+WebSocket
+
+El interfaz principal para conectar a un servidor Websocket y así enviar y recibir datos a través de la conexión. CloseEvent
+El evento enviado por el objeto WebSocket cuando se cierra la conexión. MessageEvent
+El evento enviado por el objeto WebSocket cuando se recibe un mensaje enviado desde el servidor.
+
+Herramientas
+
+Socket.IO: Una poderosa API WebSocket multi-plataforma para Node.js.
+
+WebSocket-Node: Un servidor WebSocket API implementado para Node.js.
+
+Total.js: Framework para aplicaciones web para Node.js (Ejemplo: WebSocket chat)
+
+Faye: Un servidor y cliente WebSocket (conexión bidireccional) y EventSource (conexión unidireccional) para Node.js.
