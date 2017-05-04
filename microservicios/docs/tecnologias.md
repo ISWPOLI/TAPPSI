@@ -1,4 +1,4 @@
-RUBY 
+#RUBY 
 
 Un lenguaje de programación dinámico y de código abierto enfocado en la simplicidad y productividad. Su elegante sintaxis se siente natural al leerla y fácil al escribirla.
 
@@ -19,7 +19,7 @@ class Numeric
 end
 
 y = 5.sumar 6
-# ahora y vale 11
+ahora y vale 11
 Los operadores de Ruby son simples conveniencias sintácticas para los métodos. Los puedes redefinir como y cuando quieras.
 
 Los Bloques, una funcionalidad realmente expresiva
@@ -51,13 +51,11 @@ var puede ser una variable local.
 $var es una variable global.
 Estos detalles mejoran la legibilidad permitiendo que el desarrollador identifique fácilmente los roles de las variables. También se hace innecesario el uso del molesto self. como prefijo de todos los miembros de instancia.
 
-Phoenix Elixix 
+#Phoenix Elixix 
 
 Phoenix es un framework de desarrollo web escrito en Elixir, patrón MVC. Muchos de sus componentes y conceptos le resultará familiar a los que tenemos experiencia en otros framework como Ruby on Rails o Django. Phoenix ofrece lo mejor de ambos mundos - alta productividad en ambitos de desarrollo y un alto rendimiento de la aplicación.
 
 Pero antes de seguir vamos a definir algunos conceptos:
-
-
 
 ¿ Qué es Erlang ?
 
