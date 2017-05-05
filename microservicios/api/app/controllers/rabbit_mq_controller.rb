@@ -1,0 +1,2 @@
+class RabbitMqController < ApplicationController
+end
